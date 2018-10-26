@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Plantaleon</title>
+  </head>
+
+  <body>
+
+    <div >
+      <nav class="nav-wrapper ">
+        <div class="container">
+          <ul class="left hide-on-med-and-down">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PROYECTOS</a></li>
+            <li><a href="#">BENEFICIOS</a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            <li><a href="#">COTACTO</a></li>
+          </ul>
+          <!-- para menu mobile -->
+          <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+
+          <ul class="right">
+            <li><a href="#">pantaleon@info.com</a></li>
+            <li><a href="#">2254-9658</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- el menu que aparece del costado izquierdo -->
+      <ul class="sidenav" id="menu-responsive">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROYECTOS</a></li>
+        <li><a href="#">BENEFICIOS</a></li>
+        <li><a href="#">NOSOTROS</a></li>
+        <li><a href="#">COTACTO</a></li>
+      </ul>
+
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center"><img src="img/isologotipo.png"></a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="parallax-container" style="height:500px">
+      <div class="parallax"><img src="img/fondo.jpg"></div>
+    </div>
+
+    <div class="section teal darken-1">
+      <h2 class="header center white-text">BENEFICIOS</h2>
+    </div>
+    
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/fondo.jpg"></div>
+    </div>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      /* funcionalidad para el menu desplegable */
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+
+      /* funcionalidad para el efecto parallaz */
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems);
+      });
+
+
+
+    </script>
+  </body>
+</html>
+        
