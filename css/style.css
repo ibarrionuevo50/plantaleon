@@ -1,0 +1,25 @@
+/* body{
+    background: #4a148c;
+} */
+.h2{
+    color: #4a148c;
+}
+.card-content p{
+    color: #4a148c;
+}
+::placeholder { color: #4a148c; }
+::placeholder:focus { color: #4a148c; }
+input[type=text]{border-bottom: 1.5px solid #4a148c !important;}
+input[type=text]:focus{border-bottom: 2px solid #4a148c !important;}
+
+textarea{border-bottom: 1.5px solid #4a148c !important;}
+textarea:focus{border-bottom: 2px solid #4a148c !important;}
+
+.btn:hover{
+    background: white;
+    color: #4a148c;
+}
+.btn{
+    letter-spacing: 1.5px;
+    background: #4a148c;
+}

@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -18,8 +18,8 @@
 
   <body>
 
-    <!-- contenedor de todo el nav -->
-    <div >
+    <!-- contenedor de toda la pagina -->
+    <div>
       <!-- Menu de navegacion -->
       <nav class="nav-wrapper purple darken-4">
         <div class="containerr">
@@ -59,22 +59,20 @@
       </nav>
     </div>
 
-    <!-- Seccion para el video informativo -->
     <div class="parallax-container" style="height:500px">
       <div class="parallax"><img src="img/fondo.jpg"></div>
     </div>
 
     <!-- Seccion de Galeria -->
-    <div class="center">
-      <h2>PROYECTOS</h2>
-    </div>
+    <div class="">
 
-    <div class="row container">
+      <div class="center">
+        <h2 class="h2">PROYECTOS</h2>
+      </div>
+
+      <div class="row container ">
       <div class="col s12">
         <div class="section">
-          <div class="col s12">
-            <span class="title">Proyectos interiores</span>
-          </div>
 
           <div class="col s12 m6 l3">                    
             <div class="card z-depth-3">
@@ -84,11 +82,11 @@
                 </a>
               </div>
               <div class="card-content">
-                <p>Benjamin Matienzo 3136</p>
-             </div>
+                <p>Benjamin Enzo 3136</p>
+              </div>
             </div>
           </div>
-
+          
           <div class="col s12 m6 l3">                    
             <div class="card z-depth-3">
               <div class="card-image waves-effect waves-block waves-light ">
@@ -98,10 +96,10 @@
               </div>
               <div class="card-content">
                 <p>Gral. Ramón Freire 120</p>
-             </div>
+              </div>
             </div>
           </div>
-
+          
           <div class="col s12 m6 l3">                    
             <div class="card z-depth-3">
               <div class="card-image waves-effect waves-block waves-light ">
@@ -111,10 +109,10 @@
               </div>
               <div class="card-content">
                 <p>El Salvador 6026 CABA</p>
-             </div>
+              </div>
             </div>
           </div>
-
+          
           <div class="col s12 m6 l3">                    
             <div class="card z-depth-3">
               <div class="card-image waves-effect waves-block waves-light ">
@@ -127,7 +125,7 @@
              </div>
             </div>
           </div>
-
+          
           <div class="col s12 m6 l3">                    
             <div class="card z-depth-3">
               <div class="card-image waves-effect waves-block waves-light ">
@@ -163,14 +161,26 @@
               </div>
               <div class="card-content">
                 <p>Av. Cabildo 381 CABA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">                    
+            <div class="card z-depth-3">
+              <div class="card-image waves-effect waves-block waves-light ">
+                <a href="#">
+                  <img src="img/8.jpg" class="responsive-img wp-post-image" alt="img8" title="img8" width="200" height="100">
+                </a>
+              </div>
+              <div class="card-content">
+                <p>Av. Lomas 381</p>
              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-
+    
+  </div>
     <!-- Seccion de Beneficios -->
     <div class="section teal darken-1">
       <div class="container">
@@ -186,33 +196,80 @@
       </div>
     </div>
     
+    <div class="section container white">
+      <div class="row">
+        <div class="col s6">
+            <h2 class="">¿Quiénes somos?</h2>
+            <p class="left">
+            Somos una empres cone xperiencia, dedicada a la comercializacion de jardinos artificiales.Nuestros productos tienen
+            una apariencia natural y se pueden colocar sobre cualquier superficie, ademas tienen la caracteristica única de que pueden cambiar de color!.
+            Tenemos un gran interés por el diseño y la innovación en cuanto a la decoración de jardines y hacemos todo
+            lo posible para ofrecerte los jardines verticales más originales y adecuados para tu entorno.
+          </p>
+        </div>
+        <div class="col s6 right-align">
+          <img class="" src="img/hoja.png"alt="">
+        </div>
+        </div>
+        <div>
+
+        </div>
+      </div>
+      <div class="row">
+          <form class="col s12">
+            <div class="row" style="color:black;">
+              <div class="input-field col s12 m6">
+                <input placeholder="Nombre" id="first_name" type="text" class="validate">
+                
+              </div>
+              <div class="input-field col s12 m6">
+                <input id="last_name" type="text" class="validate" placeholder="Email"> 
+               
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input  id="disabled" type="text" class="validate" placeholder="Asunto">
+              </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea" class="materialize-textarea" data-length="120" placeholder="Mensaje"></textarea>
+                </div>
+              </div>
+            <a class="right btn" type="submit">Enviar</a>
+          </form>
+        </div>
+
+    </div>
+    
     <div class="parallax-container">
       <div class="parallax"><img src="img/fondo.jpg"></div>
     </div>
 
 
-    <!-- Footer -->
-    <div >
-      <div class="section teal grey darken-3">
-        <div class="container"><br><br>
-          <div class="row  white-text">
-            <div class="center col s3"><i class="medium material-icons">email</i><p>plantaleon@info.com.ar</p></div>
-            <div class="center col s3"><i class="medium material-icons">call</i><p>2254-9656</p></div>
-            <div class="center col s3"><i class="medium material-icons">phonelink_ring</i><p>+54 11 0334 4233</p></div>
-            <div class="center col s3"><i class="medium material-icons">location_on</i><p>Av. Dorrego 1785. CABA</p></div>
-          </div>
-          <h2 class="header center white-text">PLANTALEON</h2>
-          <div class="section white-text center">
-            <a href="home.html" class="white-text">HOME</a> /
-            <a href="home.html" class="white-text">PROYECTOS</a> /
-            <a href="home.html" class="white-text">VENEFICIOS</a> /
-            <a href="home.html" class="white-text">NOSOTROS</a> /
-            <a href="home.html" class="white-text">CONTACTO</a>
-          </div>
-          <p class="center white-text" id="derechos">© 2018 Visualizacion e interfaces, Todos los derechos reservados. </p>
+<!-- Footer -->
+<div >
+    <div class="section teal grey darken-3">
+      <div class="container"><br><br>
+        <div class="row  white-text">
+          <div class="center col s3"><i class="medium material-icons">email</i><p>plantaleon@info.com.ar</p></div>
+          <div class="center col s3"><i class="medium material-icons">call</i><p>2254-9656</p></div>
+          <div class="center col s3"><i class="medium material-icons">phonelink_ring</i><p>+54 11 0334 4233</p></div>
+          <div class="center col s3"><i class="medium material-icons">location_on</i><p>Av. Dorrego 1785. CABA</p></div>
         </div>
+        <h2 class="header center white-text">PLANTALEON</h2>
+        <div class="section white-text center">
+          <a href="home.html" class="white-text">HOME</a> /
+          <a href="home.html" class="white-text">PROYECTOS</a> /
+          <a href="home.html" class="white-text">VENEFICIOS</a> /
+          <a href="home.html" class="white-text">NOSOTROS</a> /
+          <a href="home.html" class="white-text">CONTACTO</a>
+        </div>
+        <p class="center white-text" id="derechos">© 2018 Visualizacion e interfaces, Todos los derechos reservados. </p>
       </div>
     </div>
+  </div>
 
 
     <!--JavaScript at end of body for optimized loading-->
