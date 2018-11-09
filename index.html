@@ -19,16 +19,16 @@
   <body>
 
     <!-- contenedor de toda la pagina -->
-    <div>
+    <div id="home">
       <!-- Menu de navegacion -->
       <nav class="nav-wrapper purple darken-4">
         <div class="containerr">
           <ul class="left hide-on-med-and-down">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PROYECTOS</a></li>
-            <li><a href="#">BENEFICIOS</a></li>
-            <li><a href="#">NOSOTROS</a></li>
-            <li><a href="#">CONTACTO</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#proyectos">PROYECTOS</a></li>
+            <li><a href="#beneficios">BENEFICIOS</a></li>
+            <li><a href="#nosotros">NOSOTROS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
           </ul>
           <!-- para menu mobile -->
           <a href="#" data-target="menu-responsive" class="sidenav-trigger">
@@ -45,15 +45,15 @@
       <!-- el menu que aparece del costado izquierdo -->
       <ul class="sidenav" id="menu-responsive">
         
-        <li><a href="#"><i class="material-icons">home</i>HOME</a></li>
+        <li><a href="#home"><i class="material-icons">home</i>HOME</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="#"><i class="material-icons">image</i>PROYECTOS</a></li>
+        <li><a href="#proyectos"><i class="material-icons">image</i>PROYECTOS</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="#"><i class="material-icons">add</i>BENEFICIOS</a></li>
+        <li><a href="#beneficios"><i class="material-icons">add</i>BENEFICIOS</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="#"><i class="material-icons">contact_support</i>NOSOTROS</a></li>
+        <li><a href="#nosotros"><i class="material-icons">contact_support</i>NOSOTROS</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="#"><i class="material-icons">contacts</i>COTACTO</a></li>
+        <li><a href="#contacto"><i class="material-icons">contacts</i>CONTACTO</a></li>
         <li><div class="divider"></div></li>
       </ul>
 
@@ -77,7 +77,7 @@
     </div>
 
     <!-- Seccion de Galeria -->
-    <div class="">
+    <div id="proyectos">
 
       <div class="center">
         <h2 class="h2">PROYECTOS</h2>
@@ -195,33 +195,33 @@
     
   </div>
     <!-- Seccion de Beneficios -->
-    <div class="section teal darken-1">
+    <div class="section teal darken-1" id="beneficios">
       <div class="container">
         <h2 class="header center white-text">BENEFICIOS</h2>
         <div class="row  white-text">
-          <div class="center col s2"><i class="large material-icons">C</i><p>Cambio de color</p></div>
-          <div class="center col s2"><i class="large material-icons">A</i><p>Aislante acustico</p></div>
-          <div class="center col s2"><i class="large material-icons">N</i><p>No requiere mantenimiento</p></div>
-          <div class="center col s2"><i class="large material-icons">P</i><p>Proteccion UV</p></div>
-          <div class="center col s2"><i class="large material-icons">F</i><p>Facil instalacion</p></div>
-          <div class="center col s2"><i class="large material-icons">S</i><p>Sin pesticida</p></div>
+          <div class="center col s2"><img src="img/gota.png" class="responsive-img" alt=""><p>Cambio de color</p></div>
+          <div class="center col s2"> <img src="img/megafono.png" class="responsive-img" alt=""> <p>Aislante acustico</p></div>
+          <div class="center col s2"> <img src="img/herramienta.png" class="responsive-img" alt=""> <p>No requiere mantenimiento</p></div>
+          <div class="center col s2"><img src="img/sol.png" class="responsive-img" alt=""><p>Proteccion UV</p></div>
+          <div class="center col s2"> <img src="img/instalacion.png" class="responsive-img" alt=""> <p>Bacil instalacion</p></div>
+          <div class="center col s2"><img src="img/mariposa.png" class="responsive-img" alt=""><p>Sin preticidad</p></div>
         </div>
       </div>
     </div>
     
-    <div class="section container white">
+    <div class="section container white" id="nosotros">
       <div class="row">
-        <div class="col s6">
+        <div class="col s7 m8">
             <h2 class="">¿Quiénes somos?</h2>
             <p class="left">
-            Somos una empresa con experiencia, dedicada a la comercializacion de jardines artificiales. Nuestros productos tienen
-            una apariencia natural y se pueden colocar sobre cualquier superficie, ademas tienen la caracteristica única de que pueden cambiar de color.
+            Somos una empresa con experiencia, dedicada a la comercialización de jardines artificiales. Nuestros productos tienen
+            una apariencia natural y se pueden colocar sobre cualquier superficie, además tienen la caracteristica única de que pueden cambiar de color!.
             Tenemos un gran interés por el diseño y la innovación en cuanto a la decoración de jardines y hacemos todo
             lo posible para ofrecerte los jardines verticales más originales y adecuados para tu entorno.
           </p>
         </div>
-        <div class="col s6 right-align">
-          <img class="" src="img/hoja.png"alt="">
+        <div class="col s4 l4 show-on-large imgrev">
+          <img class="responsive-img" src="img/garden1.png"alt="">
         </div>
         </div>
         <div>
@@ -232,13 +232,13 @@
 <!-- Contacto -->
 	<br>
 	
-	<div class="section teal darken-2">
+	<div class="section teal darken-2" id="contacto">
     <div class="container">
   		<div class="row" col s6 style="color:white">
     		<i class="medium material-icons prefix left">contacts</i>
     		<h3 class="">Contacto</h3>
   		</div>
-      <div class="row">
+      <div class="row" >
           <form action="#" class="col s10" >
             <div class="row white-text" style="color:white;">
           		<div class="data-error data-success input-field col s12">
@@ -282,11 +282,11 @@
         </div>
         <h2 class="header center white-text">PLANTALEON</h2>
         <div class="section white-text center">
-          <a href="home.html" class="white-text">HOME</a> /
-          <a href="home.html" class="white-text">PROYECTOS</a> /
-          <a href="home.html" class="white-text">VENEFICIOS</a> /
-          <a href="home.html" class="white-text">NOSOTROS</a> /
-          <a href="home.html" class="white-text">CONTACTO</a>
+          <a href="#home" class="white-text">HOME</a> /
+          <a href="#proyectos" class="white-text">PROYECTOS</a> /
+          <a href="#beneficios" class="white-text">BENEFICIOS</a> /
+          <a href="#nosotros" class="white-text">NOSOTROS</a> /
+          <a href="#contacto" class="white-text">CONTACTO</a>
         </div>
         <p class="center white-text" id="derechos">© 2018 Visualizacion e interfaces, Todos los derechos reservados. </p>
       </div>
